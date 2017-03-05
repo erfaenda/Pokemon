@@ -24,7 +24,13 @@ public class Pokemon {
     }
 
     public void Gritings(){
-        System.out.println("Im a strong pokemon! My statistic is: " + nation + element + age + size + atk + hp);
+        System.out.println("Im a strong pokemon! ");
+        System.out.println("My name is " + name);
+        System.out.println("Im " + element + " pokemon");
+        System.out.println("Was born " + (2017 - age ));
+        System.out.println("Im " + size);
+        System.out.println("My simple attak is " + atk + " and my hp is " + hp);
+        System.out.println();
     }
     public void Attak() {
         System.out.println("Argh!!! Simple attak " + atk);
