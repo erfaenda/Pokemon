@@ -13,5 +13,8 @@ public class Pikachu  extends Pokemon {
         int eatk = getAtk() + rnd.nextInt(12);
         System.out.println("Удар молнией " + eatk);
     }
+    public void Attak() {
+        System.out.println("Argh!!! Simple attak " + getAtk());
+    }
 
 }

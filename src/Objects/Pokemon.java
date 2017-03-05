@@ -32,9 +32,6 @@ public class Pokemon {
         System.out.println("My simple attak is " + atk + " and my hp is " + hp);
         System.out.println();
     }
-    public void Attak() {
-        System.out.println("Argh!!! Simple attak " + atk);
-    }
 
     public String getNation() {
         return nation;
